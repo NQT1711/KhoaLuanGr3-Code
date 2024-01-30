@@ -1,1 +1,1 @@
-SMReviewID,ProductID,PlatformID,TypeReview,DateReview,Title,ReviewerName,ViewCount,CommentCount
+SMReviewID,Review,ProductID,PlatformID,TypeReview,DateReview,Title,ReviewerName,ViewCount,CommentCount
