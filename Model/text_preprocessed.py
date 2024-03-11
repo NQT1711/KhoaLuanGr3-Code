@@ -8,7 +8,6 @@ from collections import Counter
 # from nltk.util import ngrams
 # import pyvi
 
-
 def no_accent_vietnamese(s): # Xóa dấu của từ
     s = re.sub(r'[àáạảãâầấậẩẫăằắặẳẵ]', 'a', s)
     s = re.sub(r'[èéẹẻẽêềếệểễ]', 'e', s)
@@ -19,6 +18,7 @@ def no_accent_vietnamese(s): # Xóa dấu của từ
     s = re.sub(r'[đ]', 'd', s)
     return s
 
+
 def check_accent(text):
     accent_character = 'àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễòóọỏõôồốộổỗơờớợởỡìíịỉĩùúụủũưừứựửữỳýỵỷỹđ'
     kq = False
@@ -28,6 +28,7 @@ def check_accent(text):
             kq = True
     
     return kq
+
 
 def remove_replicated(text): # Xóa chữ cái bị lặp
     # Bỏ qua từ đặc biệt
@@ -91,6 +92,7 @@ def remove_replicated(text): # Xóa chữ cái bị lặp
 
     return text
 
+
 def remove_abbreviations(text):
     abbreviations = pd.read_excel('abbreviations.xlsx')
     remove_abbreviations_list = []
@@ -103,6 +105,7 @@ def remove_abbreviations(text):
 
     text_pre = ' '.join(remove_abbreviations_list)
     return text_pre
+
 
 def product_name_ngram():
     product_df = pd.read_csv('..\Data\Preprocessed_data\Product.csv')
@@ -122,7 +125,8 @@ def product_name_ngram():
 
     return list(set(ignore_product_name))
 
-def preprocessing_text(text , ignore_list=[]):
+
+def preprocessing_text(text):
     # Biến chữ hoa thành chữ thường
     text_pre = text.lower()
 
@@ -141,9 +145,9 @@ def preprocessing_text(text , ignore_list=[]):
     # Loại bỏ dấu xuống dòng \r, \n và tab \t
     text_pre = text_pre.replace('\r', ' ').replace('\n', ' ').replace('\t', ' ')
 
-    # Loại bỏ emoji
+    # Biến đổi emoji
     text_pre = emoji.demojize(text_pre, delimiters=("", " "))
-    text_pre = ' '.join([t for t in text_pre.split(' ') if '_' not in t])
+    # text_pre = ' '.join([t for t in text_pre.split(' ') if '_' not in t]) 3 Code loại bỏ
 
     # Loại bỏ dấu câu và kí tự
     punc = punctuation
@@ -161,24 +165,7 @@ def preprocessing_text(text , ignore_list=[]):
     # Loại bỏ từ viết tắt và viết sai
     text_pre = remove_abbreviations(text_pre)
 
-    # Xử lý từ phủ định
-
-    # Loại bỏ stopword
-    f = open(r"vietnamese-stopwords_edit.txt", "r", encoding="utf-8")
-    List_StopWords = f.read().split("\n")
-    if ignore_list != []:
-        List_StopWords += ignore_list
-    text_pre=" ".join(text for text in text_pre.split() if text not in List_StopWords)
-
     # Tokenize
     text_pre = ViTokenizer.tokenize(text_pre)
-
-    # Pos tagging
-    pos_tagger = ViPosTagger.postagging(text_pre)
-    text_pre = []
-    for i in range(len(pos_tagger[0])):
-        if pos_tagger[1][i] in ['N'] and len(pos_tagger[0][i]) > 2 and pos_tagger[0][i] not in product_name_ngram():
-            text_pre.append(pos_tagger[0][i])
-    text_pre = ' '.join(text_pre)
     
     return text_pre
