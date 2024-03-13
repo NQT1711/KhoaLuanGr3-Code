@@ -2,11 +2,12 @@ import pandas as pd
 from string import punctuation
 import re
 import emoji
+from emoji import EMOJI_DATA
 from collections import Counter
-# from pyvi import ViTokenizer, ViPosTagger
-# from nltk.corpus import words
-# from nltk.util import ngrams
-# import pyvi
+from emosent import get_emoji_sentiment_rank
+from pyvi import ViTokenizer
+from nltk.corpus import words
+from nltk.util import ngrams
 
 def no_accent_vietnamese(s): # Xóa dấu của từ
     s = re.sub(r'[àáạảãâầấậẩẫăằắặẳẵ]', 'a', s)
@@ -125,6 +126,26 @@ def product_name_ngram():
 
     return list(set(ignore_product_name))
 
+def convert_emoji(text):
+    text_split = list(text)
+    text_pre = []
+
+    for t in text_split:
+        if t in EMOJI_DATA:
+            sen_dict = {}
+            sen_dict['tích cực'] = get_emoji_sentiment_rank(t)['positive']
+            sen_dict['bình thường'] = get_emoji_sentiment_rank(t)['neutral']
+            sen_dict['tiêu cực'] = get_emoji_sentiment_rank(t)['negative']
+
+            text_pre.append(' ')
+            text_pre.append(max(sen_dict, key=sen_dict.get))
+            text_pre.append(' ')
+        else:
+            text_pre.append(t)
+    text_pre = ''.join(text_pre)
+
+    return ' '.join(text_pre.split())
+
 
 def preprocessing_text(text):
     # Biến chữ hoa thành chữ thường
@@ -146,15 +167,7 @@ def preprocessing_text(text):
     text_pre = text_pre.replace('\r', ' ').replace('\n', ' ').replace('\t', ' ')
 
     # Biến đổi emoji
-    text_pre = emoji.demojize(text_pre, delimiters=("", " "))
-    # text_pre = ' '.join([t for t in text_pre.split(' ') if '_' not in t]) 3 Code loại bỏ
-
-    # Loại bỏ dấu câu và kí tự
-    punc = punctuation
-    punc += '“”…►'
-    for c in punc:
-        text_pre = text_pre.replace(c,' ')
-    text_pre = " ".join(text_pre.split())
+    text_pre = convert_emoji(text_pre)
 
     # Loại bỏ chữ bị lặp
     text_pre = remove_replicated(text_pre)
@@ -167,5 +180,8 @@ def preprocessing_text(text):
 
     # Tokenize
     text_pre = ViTokenizer.tokenize(text_pre)
+
+    # Loại bỏ dấu câu và kí tự
+    text_pre = re.sub(r'[^\s\wáàảãạăắằẳẵặâấầẩẫậéèẻẽẹêếềểễệóòỏõọôốồổỗộơớờởỡợíìỉĩịúùủũụưứừửữựýỳỷỹỵđÁÀẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÉÈẺẼẸÊẾỀỂỄỆÓÒỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢÍÌỈĨỊÚÙỦŨỤƯỨỪỬỮỰÝỲỶỸỴĐ_]', ' ', text_pre)
     
     return text_pre
