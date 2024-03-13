@@ -49,6 +49,8 @@ def remove_replicated(text): # Xóa chữ cái bị lặp
         if c in accent_character:
             p = [pos for pos, char in enumerate(text) if char == c]
             dict_accent_word[c] = p
+    if dict_accent_word == {}:
+        dict_accent_word[''] = ''
     text = no_accent_vietnamese(text)
 
     # Check các chữ cái lặp
