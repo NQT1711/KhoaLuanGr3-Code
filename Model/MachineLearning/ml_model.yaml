@@ -1,0 +1,19 @@
+aspect:
+  - SCREEN
+  - CAMERA
+  - FEATURES
+  - BATTERY
+  - PERFORMANCE
+  - STORAGE
+  - DESIGN
+  - PRICE
+  - GENERAL
+  - SER&ACC
+
+labels:
+  - negative
+  - neutral
+  - positive
+train_file: ../Data/UIT-ViSFD/Train.csv
+dev_file: ../Data/UIT-ViSFD/Dev.csv
+test_file: ../Data/UIT-ViSFD/Test.csv
