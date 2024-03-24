@@ -1,12 +1,12 @@
 import pandas as pd
-from string import punctuation
+# from string import punctuation
 import re
 import emoji
 from emoji import EMOJI_DATA
 from collections import Counter
 from emosent import get_emoji_sentiment_rank
 from pyvi import ViTokenizer
-from nltk.corpus import words
+# from nltk.corpus import words
 from nltk.util import ngrams
 
 def no_accent_vietnamese(s): # Xóa dấu của từ
@@ -171,7 +171,7 @@ def preprocessing_text(text):
     text_pre = text_pre.replace('\r', ' ').replace('\n', ' ').replace('\t', ' ')
 
     # Biến đổi emoji
-    text_pre = convert_emoji(text_pre)
+    # text_pre = convert_emoji(text_pre)
 
     # Loại bỏ chữ bị lặp
     text_pre = remove_replicated(text_pre)
