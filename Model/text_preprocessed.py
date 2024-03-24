@@ -76,6 +76,8 @@ def remove_replicated(text): # Xóa chữ cái bị lặp
 
     # Loại bỏ chữ cái lặp
     for c, list_pos in remove_pos.items():
+        if c.isnumeric():
+            continue
         for k, v in dict_accent_word.items():
             compare = set(list_pos).intersection(v)
             if len(compare) != 0:
@@ -133,7 +135,7 @@ def convert_emoji(text):
     text_pre = []
 
     for t in text_split:
-        if t in EMOJI_DATA:
+        if t in EMOJI_DATA and get_emoji_sentiment_rank(t) != None:
             sen_dict = {}
             sen_dict['tích cực'] = get_emoji_sentiment_rank(t)['positive']
             sen_dict['bình thường'] = get_emoji_sentiment_rank(t)['neutral']
@@ -175,12 +177,12 @@ def preprocessing_text(text):
     text_pre = remove_replicated(text_pre)
     
     # Loại bỏ chữ số
-    text_pre = re.sub("\d+", " ", text_pre)
+    # text_pre = re.sub("\d+", " ", text_pre)
 
     # Loại bỏ từ viết tắt và viết sai
     text_pre = remove_abbreviations(text_pre)
 
-    # Tokenize
+    # Word segment
     text_pre = ViTokenizer.tokenize(text_pre)
 
     # Loại bỏ dấu câu và kí tự
