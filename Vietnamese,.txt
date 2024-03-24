@@ -1,0 +1,6 @@
+VNCoreNLP,
+Underthesea
+Pyvi
+VnTokenizer
+Flair for Vietnamese
+SpaCy for Vietnamese
