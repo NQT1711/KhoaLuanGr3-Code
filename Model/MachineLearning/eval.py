@@ -9,9 +9,9 @@ from sklearn.metrics import classification_report
 from transformers import AutoModel, AutoTokenizer
 import torch
 import torch.nn as nn
-from Model.MachineLearning.models import *
-from Model.MachineLearning.dataset import *
-from Model.MachineLearning.model_utils import *
+from models import *
+from dataset import *
+from model_utils import *
 
 label_map= {'not_exist': 0,
             'negative':1,
