@@ -6,8 +6,8 @@ import pandas as pd
 import numpy as np
 import underthesea
 from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
-from Model.MachineLearning.utils import *
-from Model.MachineLearning.text_preprocessed_nvh import preprocess_fn
+from utils import *
+from text_preprocessed_nvh import preprocess_fn
 
 #import torch_xla.core.xla_model as xm
 
