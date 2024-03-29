@@ -171,7 +171,7 @@ def preprocessing_text(text):
     text_pre = text_pre.replace('\r', ' ').replace('\n', ' ').replace('\t', ' ')
 
     # Biến đổi emoji
-    # text_pre = convert_emoji(text_pre)
+    text_pre = convert_emoji(text_pre)
 
     # Loại bỏ chữ bị lặp
     text_pre = remove_replicated(text_pre)
