@@ -152,6 +152,8 @@ def convert_emoji(text):
 
 
 def preprocessing_text(text):
+    if type(text) == float:
+        return ''
     # Biến chữ hoa thành chữ thường
     text_pre = text.lower()
 
