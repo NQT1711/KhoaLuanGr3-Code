@@ -1,4 +1,4 @@
-Name,Brand,Quantity,Reviews count,Star rating,Price,Crawl date,Màu sắc,Dung lượng,Shop name,Shop rating,Shop rating count,Sản phẩm có được bảo hành không?,Có thuế VAT,Hình thức bảo hành,Thời gian bảo hành,Dung lượng pin,Bluetooth,Thương hiệu,Xuất xứ thương hiệu,Hỗ trợ thẻ nhớ ngoài,Chip đồ họa (GPU),Chip set,Chức năng khác,Kết nối khác,Tốc độ CPU,Đèn Flash,Kích thước,Loại/ Công nghệ màn hình,Ghi âm,GPS,Hỗ trợ 5G,Phụ kiện đi kèm,Model,Jack tai nghe,Số sim,Loại pin,Loại Sim,Chất liệu,Nghe nhạc,Xuất xứ (Made in),Cổng sạc,Trọng lượng sản phẩm,Quay phim,RAM,Độ phân giải,ROM,Kích thước màn hình,Wifi,Xem phim,Describe
+Name,Brand,Quantity,Reviews count,Star rating,Price,Crawl date,Màu sắc,Storage,Shop name,Shop rating,Shop rating count,Sản phẩm có được bảo hành không?,Có thuế VAT,Hình thức bảo hành,Thời gian bảo hành,Dung lượng pin,Bluetooth,Thương hiệu,Xuất xứ thương hiệu,Hỗ trợ thẻ nhớ ngoài,Chip đồ họa (GPU),Chip set,Chức năng khác,Kết nối khác,Tốc độ CPU,Đèn Flash,Kích thước,Loại/ Công nghệ màn hình,Ghi âm,GPS,Hỗ trợ 5G,Phụ kiện đi kèm,Model,Jack tai nghe,Số sim,Loại pin,Loại Sim,Chất liệu,Nghe nhạc,Xuất xứ (Made in),Cổng sạc,Trọng lượng sản phẩm,Quay phim,RAM,Độ phân giải,ROM,Kích thước màn hình,Wifi,Xem phim,Describe
 Apple iPhone 15 Pro Max,Apple,691,96,5.0,31.990.000,2024-01-12,"Titan Trắng, Titan Tự Nhiên, Titan Xanh, Titan Đen",256GB,Tiki Trading,4.7,5.4tr+,Có,Có,Điện tử,12,4422 mAh,v5.3,Apple,Mỹ,Không,Apple GPU 6 nhân,Apple A17 Pro 6 nhân,"Bảo mật nâng cao: Mở khoá khuôn mặt Face ID
 Tính năng đặc biệt: Phát hiện va chạm (Crash Detection)
 Màn hình luôn hiển thị AOD, Âm thanh Dolby Atmos
@@ -197,7 +197,7 @@ Pháp lý
  
 Thông số kỹ thuật
 Truy cập  để xem cấu hình đầy đủ.Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....Xem thêm"
-Apple iPhone 15 Pro Max,Apple,784,121,5.0,30.990.000,2024-03-08,,,Tiki Trading,4.7,5.4tr+,Có,Có,Điện tử,12,4422 mAh,v5.3,Apple,Mỹ,Không,Apple GPU 6 nhân,Apple A17 Pro 6 nhân,"Bảo mật nâng cao: Mở khoá khuôn mặt Face ID
+Apple iPhone 15 Pro Max,Apple,784,121,5.0,30.990.000,2024-03-08,,256GB,Tiki Trading,4.7,5.4tr+,Có,Có,Điện tử,12,4422 mAh,v5.3,Apple,Mỹ,Không,Apple GPU 6 nhân,Apple A17 Pro 6 nhân,"Bảo mật nâng cao: Mở khoá khuôn mặt Face ID
 Tính năng đặc biệt: Phát hiện va chạm (Crash Detection)
 Màn hình luôn hiển thị AOD, Âm thanh Dolby Atmos
 Kháng nước, bụi: IP68
@@ -230,7 +230,7 @@ Pháp lý
  
 Thông số kỹ thuật
 Truy cập  để xem cấu hình đầy đủ.Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....Xem thêm"
-Apple iPhone 15 Pro Max,Apple,797,122,5.0,30.990.000,2024-03-23,,,Tiki Trading,4.7,5.5tr+,Có,Có,Điện tử,12,4422 mAh,v5.3,Apple,Mỹ,Không,Apple GPU 6 nhân,Apple A17 Pro 6 nhân,"Bảo mật nâng cao: Mở khoá khuôn mặt Face ID
+Apple iPhone 15 Pro Max,Apple,797,122,5.0,30.990.000,2024-03-23,,256GB,Tiki Trading,4.7,5.5tr+,Có,Có,Điện tử,12,4422 mAh,v5.3,Apple,Mỹ,Không,Apple GPU 6 nhân,Apple A17 Pro 6 nhân,"Bảo mật nâng cao: Mở khoá khuôn mặt Face ID
 Tính năng đặc biệt: Phát hiện va chạm (Crash Detection)
 Màn hình luôn hiển thị AOD, Âm thanh Dolby Atmos
 Kháng nước, bụi: IP68
@@ -263,7 +263,7 @@ Pháp lý
  
 Thông số kỹ thuật
 Truy cập  để xem cấu hình đầy đủ.Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....Xem thêm"
-Apple iPhone 15 Pro Max,Apple,800,123,5.0,30.990.000,2024-03-30,,,Tiki Trading,4.7,5.4tr+,Có,Có,Điện tử,12,4422 mAh,v5.3,Apple,Mỹ,Không,Apple GPU 6 nhân,Apple A17 Pro 6 nhân,"Bảo mật nâng cao: Mở khoá khuôn mặt Face ID
+Apple iPhone 15 Pro Max,Apple,800,123,5.0,30.990.000,2024-03-30,,256GB,Tiki Trading,4.7,5.4tr+,Có,Có,Điện tử,12,4422 mAh,v5.3,Apple,Mỹ,Không,Apple GPU 6 nhân,Apple A17 Pro 6 nhân,"Bảo mật nâng cao: Mở khoá khuôn mặt Face ID
 Tính năng đặc biệt: Phát hiện va chạm (Crash Detection)
 Màn hình luôn hiển thị AOD, Âm thanh Dolby Atmos
 Kháng nước, bụi: IP68
@@ -296,7 +296,7 @@ Pháp lý
  
 Thông số kỹ thuật
 Truy cập  để xem cấu hình đầy đủ.Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....Xem thêm"
-Apple iPhone 15 Pro Max,Apple,806,126,5.0,31.490.000,2024-04-07,,,Tiki Trading,4.7,5.4tr+,Có,Có,Điện tử,12,4422 mAh,v5.3,Apple,Mỹ,Không,Apple GPU 6 nhân,Apple A17 Pro 6 nhân,"Bảo mật nâng cao: Mở khoá khuôn mặt Face ID
+Apple iPhone 15 Pro Max,Apple,806,126,5.0,31.490.000,2024-04-07,,256GB,Tiki Trading,4.7,5.4tr+,Có,Có,Điện tử,12,4422 mAh,v5.3,Apple,Mỹ,Không,Apple GPU 6 nhân,Apple A17 Pro 6 nhân,"Bảo mật nâng cao: Mở khoá khuôn mặt Face ID
 Tính năng đặc biệt: Phát hiện va chạm (Crash Detection)
 Màn hình luôn hiển thị AOD, Âm thanh Dolby Atmos
 Kháng nước, bụi: IP68
@@ -329,7 +329,7 @@ Pháp lý
  
 Thông số kỹ thuật
 Truy cập  để xem cấu hình đầy đủ.Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....Xem thêm"
-Apple iPhone 15 Pro Max,Apple,815,128,5.0,29.990.000,2024-04-17,,,Tiki Trading,4.7,5.4tr+,Có,Có,Điện tử,12,4422 mAh,v5.3,Apple,Mỹ,Không,Apple GPU 6 nhân,Apple A17 Pro 6 nhân,"Bảo mật nâng cao: Mở khoá khuôn mặt Face ID
+Apple iPhone 15 Pro Max,Apple,815,128,5.0,29.990.000,2024-04-17,,256GB,Tiki Trading,4.7,5.4tr+,Có,Có,Điện tử,12,4422 mAh,v5.3,Apple,Mỹ,Không,Apple GPU 6 nhân,Apple A17 Pro 6 nhân,"Bảo mật nâng cao: Mở khoá khuôn mặt Face ID
 Tính năng đặc biệt: Phát hiện va chạm (Crash Detection)
 Màn hình luôn hiển thị AOD, Âm thanh Dolby Atmos
 Kháng nước, bụi: IP68
