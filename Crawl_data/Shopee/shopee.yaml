@@ -1,4 +1,32 @@
-P001: ./json/iphone15promax.json # Iphone 15 pro max
-P002: ./json/samsungs23ultra.json # Samsung s23 ultr
+P001: ./json/iphone15promax_Apr04.json # Iphone 15 pro max
+P002: ./json/samsungs23ultra_Apr04.json # Samsung s23 ultr
 P003: ./json/samsungs24ultra.json # Samsung s24 ultra
 
+convert_id_to_name:
+  1039322456: TCMOBEO
+  182298008: Đại Phát shop
+  45958676: FUN OFFICIAL.
+  42787830: DiDongStore.com
+  48406301: SHOPSAMSUNG.VN LINHPHUKIEN.VN
+  1039678074: 1039678074
+  1107128132: IIlumidzShop
+  1165274448: DMobile-HCM
+  424715: Điện Thoại Giá Kho Official
+  349543642: Tamanmobile
+  65589552: SAMSUNG OFFICIAL STORE
+  603809751: 603809751
+  181774937: GalaxyShopVN
+  37679543: Hnam Mobile
+  811629533: CuBeoShop
+  897072353: PREMIUM STORE ONLINE
+  297083882: 297083882
+  36280069: TechGearVN
+  88201679: Apple Flagship Store
+  288286284: ShopDunk Official Store
+  308461157: Viettel Store - AAR
+  487028617: Minh Tuấn Mobile Official
+  92532150: Futureworld
+  43827433: Phú Mobile TN
+  1110494168: TB Mobile
+  1031375719: Mini Shop Official
+  71791006: S.Zone Authorised Store
