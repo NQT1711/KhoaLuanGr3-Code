@@ -1,5 +1,5 @@
-P001: ./json/iphone15promax_Apr04.json # Iphone 15 pro max
-P002: ./json/samsungs23ultra_Apr04.json # Samsung s23 ultr
+P001: ./json/iphone15promax_Apr19.json # Iphone 15 pro max
+P002: ./json/samsungs23ultra_Apr19.json # Samsung s23 ultr
 P003: ./json/samsungs24ultra.json # Samsung s24 ultra
 
 convert_id_to_name:
@@ -30,3 +30,4 @@ convert_id_to_name:
   1110494168: TB Mobile
   1031375719: Mini Shop Official
   71791006: S.Zone Authorised Store
+  489313645: didongso1.com
