@@ -1,33 +1,36 @@
-P001: ./json/iphone15promax_Apr19.json # Iphone 15 pro max
-P002: ./json/samsungs23ultra_Apr19.json # Samsung s23 ultr
+P001: ./json/iphone15promax_May03.json # Iphone 15 pro max
+P002: ./json/samsungs23ultra_May03.json # Samsung s23 ultr
 P003: ./json/samsungs24ultra.json # Samsung s24 ultra
 
 convert_id_to_name:
-  1039322456: TCMOBEO
-  182298008: Đại Phát shop
-  45958676: FUN OFFICIAL.
-  42787830: DiDongStore.com
-  48406301: SHOPSAMSUNG.VN LINHPHUKIEN.VN
-  1039678074: 1039678074
-  1107128132: IIlumidzShop
-  1165274448: DMobile-HCM
-  424715: Điện Thoại Giá Kho Official
-  349543642: Tamanmobile
-  65589552: SAMSUNG OFFICIAL STORE
-  603809751: 603809751
-  181774937: GalaxyShopVN
-  37679543: Hnam Mobile
-  811629533: CuBeoShop
-  897072353: PREMIUM STORE ONLINE
-  297083882: 297083882
-  36280069: TechGearVN
-  88201679: Apple Flagship Store
-  288286284: ShopDunk Official Store
-  308461157: Viettel Store - AAR
-  487028617: Minh Tuấn Mobile Official
-  92532150: Futureworld
-  43827433: Phú Mobile TN
-  1110494168: TB Mobile
-  1031375719: Mini Shop Official
-  71791006: S.Zone Authorised Store
-  489313645: didongso1.com
+  ShopeeID_1039322456: TCMOBEO
+  ShopeeID_182298008: Đại Phát shop
+  ShopeeID_45958676: FUN OFFICIAL.
+  ShopeeID_42787830: DiDongStore.com
+  ShopeeID_48406301: SHOPSAMSUNG.VN LINHPHUKIEN.VN
+  ShopeeID_1039678074: ShopeeID_1039678074
+  ShopeeID_1107128132: IIlumidzShop
+  ShopeeID_1165274448: DMobile-HCM
+  ShopeeID_424715: Điện Thoại Giá Kho Official
+  ShopeeID_349543642: Tamanmobile
+  ShopeeID_65589552: SAMSUNG OFFICIAL STORE
+  ShopeeID_603809751: ShopeeID_603809751
+  ShopeeID_181774937: GalaxyShopVN
+  ShopeeID_37679543: Hnam Mobile
+  ShopeeID_811629533: CuBeoShop
+  ShopeeID_897072353: PREMIUM STORE ONLINE
+  ShopeeID_297083882: ShopeeID_297083882
+  ShopeeID_36280069: TechGearVN
+  ShopeeID_88201679: Apple Flagship Store
+  ShopeeID_288286284: ShopDunk Official Store
+  ShopeeID_308461157: Viettel Store - AAR
+  ShopeeID_487028617: Minh Tuấn Mobile Official
+  ShopeeID_92532150: Futureworld
+  ShopeeID_43827433: Phú Mobile TN
+  ShopeeID_1110494168: TB Mobile
+  ShopeeID_1031375719: Mini Shop Official
+  ShopeeID_71791006: S.Zone Authorised Store
+  ShopeeID_489313645: didongso1.com
+  ShopeeID_603809751: Omi Mobile
+  ShopeeID_394825734: fashionhn_store
+  ShopeeID_1142793650: TẤN HẢO MOBILE
