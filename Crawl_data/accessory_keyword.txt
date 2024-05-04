@@ -9,3 +9,7 @@ tai nghe
 stand
 bảo vệ
 kính khung
+charger
+protector
+connector
+case
