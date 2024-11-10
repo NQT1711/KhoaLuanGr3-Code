@@ -1,0 +1,19 @@
+aspect:
+  - SCREEN
+  - CAMERA
+  - FEATURES
+  - BATTERY
+  - PERFORMANCE
+  - STORAGE
+  - DESIGN
+  - PRICE
+  - GENERAL
+  - SER&ACC
+
+labels:
+  - negative
+  - neutral
+  - positive
+train_file: ../Data/Pre_train_model/ML/Train.csv
+dev_file: ../Data/Pre_train_model/ML/Dev.csv
+test_file: ../Data/Pre_train_model/ML/Test.csv
